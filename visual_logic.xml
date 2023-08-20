@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <tab name="init" type="InitTab" active="true" scrollx="2.85870361328125" scrolly="189.82533264160156" scale="1">
+  <tab name="init" type="InitTab" active="true" scrollx="129.33079301689122" scrolly="149.08504979019176" scale="0.783526166468459">
     <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="{*eDKW1*C{XFP:TQCNaU" x="190" y="30">
       <field name="LOAD_COMP_ASSETS">FALSE</field>
       <field name="FULLSCREEN">FALSE</field>
@@ -9,95 +9,85 @@
     </block>
     <block xmlns="https://developers.google.com/blockly/xml" type="initPreloader" id="XpH:):n3FW0WaNHhP:2P" x="190" y="230">
       <statement name="DO_PROGRESS">
-        <block type="console.log" id="C7,^x;3B-=8Of(-7H{i?">
+        <block type="setHTMLElemAttribute" id="/yB0G,A8KUQ:sV%?Hk-.">
+          <field name="ATTRIBUTE">style</field>
+          <field name="PARENT">FALSE</field>
           <value name="VALUE">
-            <shadow type="text" id="))UGCa:M)2SH`xKEJcV|">
-              <field name="TEXT">Hello, Verge!</field>
+            <block type="text_join" id="-gY@?eK8jE3xjzr=pELk">
+              <mutation items="3"></mutation>
+              <value name="ADD0">
+                <block type="text" id="WEG$.HeI9;]%eU!/gpy0">
+                  <field name="TEXT">Left</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="percentage" id="OrOH|Xnb|Qj`tiH7$Ky8"></block>
+              </value>
+              <value name="ADD2">
+                <block type="text" id="Xm9fH7FqajxL*=K4.Yw6">
+                  <field name="TEXT">%</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="Y#Nw`L6hyVsta5BW[hyq">
+              <field name="TEXT">decorative_protection_layer</field>
             </shadow>
-            <block type="percentage" id="4(7fKxyk8DlYMK@$KGkQ"></block>
+            <block type="text" id="*%LUI[MJ+^NOl6C+qKZv">
+              <field name="TEXT"></field>
+            </block>
           </value>
           <next>
-            <block type="setHTMLElemAttribute" id="/yB0G,A8KUQ:sV%?Hk-.">
-              <field name="ATTRIBUTE">style</field>
-              <field name="PARENT">FALSE</field>
+            <block type="setHTMLElemAttribute" id="X8@SI53Wg4N*Ex%I)3En">
+              <field name="ATTRIBUTE">innerHTML</field>
+              <field name="PARENT">TRUE</field>
               <value name="VALUE">
-                <block type="text_join" id="-gY@?eK8jE3xjzr=pELk">
+                <block type="text_join" id="*MQ]+gGLP4,+M/`2!G/x">
                   <mutation items="3"></mutation>
-                  <value name="ADD0">
-                    <block type="text" id="WEG$.HeI9;]%eU!/gpy0">
-                      <field name="TEXT">Left</field>
-                    </block>
-                  </value>
                   <value name="ADD1">
-                    <block type="percentage" id="OrOH|Xnb|Qj`tiH7$Ky8"></block>
+                    <block type="percentage" id="a/s[Ds,-lEfuuoX@L)4?"></block>
                   </value>
                   <value name="ADD2">
-                    <block type="text" id="Xm9fH7FqajxL*=K4.Yw6">
+                    <block type="text" id="jeV)3zG6Eqr%l;ghn2S1">
                       <field name="TEXT">%</field>
                     </block>
                   </value>
                 </block>
               </value>
               <value name="ID">
-                <shadow type="text" id="Y#Nw`L6hyVsta5BW[hyq">
-                  <field name="TEXT">decorative_protection_layer</field>
-                </shadow>
-                <block type="text" id="*%LUI[MJ+^NOl6C+qKZv">
+                <shadow type="text" id="@h7qq%QvD+jYzY),VQxQ">
                   <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="73]1:bw$JSV#}e@SZLlw">
+                  <field name="TEXT">loading-value</field>
                 </block>
               </value>
               <next>
-                <block type="setHTMLElemAttribute" id="X8@SI53Wg4N*Ex%I)3En">
-                  <field name="ATTRIBUTE">innerHTML</field>
+                <block type="setHTMLElemStyle" id="`TVxBx.OVAClXxkzYxwl">
+                  <field name="PROPERTY">width</field>
                   <field name="PARENT">TRUE</field>
                   <value name="VALUE">
-                    <block type="text_join" id="*MQ]+gGLP4,+M/`2!G/x">
+                    <block type="text_join" id="#=_loIgL|K6Zt.3biDWL">
                       <mutation items="3"></mutation>
                       <value name="ADD1">
-                        <block type="percentage" id="a/s[Ds,-lEfuuoX@L)4?"></block>
+                        <block type="percentage" id="wk(zOEtjD(E=dja29BYq"></block>
                       </value>
                       <value name="ADD2">
-                        <block type="text" id="jeV)3zG6Eqr%l;ghn2S1">
+                        <block type="text" id="VM1mciB$p)5Gths(^0bb">
                           <field name="TEXT">%</field>
                         </block>
                       </value>
                     </block>
                   </value>
                   <value name="ID">
-                    <shadow type="text" id="@h7qq%QvD+jYzY),VQxQ">
+                    <shadow type="text" id="jQ(8t~Tap?[DnqyfqP`?">
                       <field name="TEXT"></field>
                     </shadow>
-                    <block type="text" id="73]1:bw$JSV#}e@SZLlw">
-                      <field name="TEXT">loading-value</field>
+                    <block type="text" id="%(3?j)wBEsT;^7[c7Az.">
+                      <field name="TEXT">loading-bar-inner</field>
                     </block>
                   </value>
-                  <next>
-                    <block type="setHTMLElemStyle" id="`TVxBx.OVAClXxkzYxwl">
-                      <field name="PROPERTY">width</field>
-                      <field name="PARENT">TRUE</field>
-                      <value name="VALUE">
-                        <block type="text_join" id="#=_loIgL|K6Zt.3biDWL">
-                          <mutation items="3"></mutation>
-                          <value name="ADD1">
-                            <block type="percentage" id="wk(zOEtjD(E=dja29BYq"></block>
-                          </value>
-                          <value name="ADD2">
-                            <block type="text" id="VM1mciB$p)5Gths(^0bb">
-                              <field name="TEXT">%</field>
-                            </block>
-                          </value>
-                        </block>
-                      </value>
-                      <value name="ID">
-                        <shadow type="text" id="jQ(8t~Tap?[DnqyfqP`?">
-                          <field name="TEXT"></field>
-                        </shadow>
-                        <block type="text" id="%(3?j)wBEsT;^7[c7Az.">
-                          <field name="TEXT">loading-bar-inner</field>
-                        </block>
-                      </value>
-                    </block>
-                  </next>
                 </block>
               </next>
             </block>
@@ -125,7 +115,7 @@
       </statement>
     </block>
   </tab>
-  <tab name="main" type="CommonTab" active="false" scrollx="-521.340574627533" scrolly="173.54300173329966" scale="0.45557493577573005">
+  <tab name="main" type="CommonTab" active="false" scrollx="-521.3405746275328" scrolly="173.54300173329966" scale="0.45557493577573005">
     <variables xmlns="https://developers.google.com/blockly/xml">
       <variable id="7aAqHmTfqeYb[7#~$q.2">selected_peeling_image</variable>
       <variable id="svQ!Lmj--`O=WuoHz`I$">mobile_content_selection</variable>
